@@ -17,8 +17,8 @@ const app = Vue.createApp({
             }
             else {
                 this.message = this.words.toString()
-                this.message1 = this.words.toString().toUpperCase()
-                this.message2 = this.words.toString().toLowerCase()
+                this.message1 = this.words.toString().toLowerCase()
+                this.message2 = this.words.toString().toUpperCase()
             }
         }
     }
